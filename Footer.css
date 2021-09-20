@@ -1,0 +1,42 @@
+.footer{
+    background-color: black;
+    color: #fff;
+}
+.links{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.copyrights{
+    text-align: center;
+    margin-top: 80px;
+}
+li{
+    list-style: none;
+    line-height: 2rem;
+    font-size: 1.2rem;
+}
+.links div{
+    margin: 100px;
+}
+.headline{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+ul{
+    margin-top: 20px;
+}
+.contact-info div{
+    margin: 5px 10px;
+    font-size: 1.2rem;
+}
+.contact-info div p{
+    margin-top: 12px;
+    padding: 10px;
+    border: 1px solid whitesmoke;
+    width: 45px;
+    border-radius: 50%;
+}
+.contact-info div p:hover, li:hover{
+    color: #b88d36;
+    cursor: pointer;
+}

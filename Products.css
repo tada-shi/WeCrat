@@ -1,0 +1,50 @@
+.products{
+    margin: 20px auto;
+    width: 86vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card{
+    margin: 12px 25px;
+}
+.image{
+    width: 25vw;
+    height: 70vh;
+    background-color:cadetblue;
+    filter: grayscale(100%);
+}
+.motto{
+    margin-top: 40px;
+    font-size: 1.5rem;
+}
+.price{
+    margin-top: 12px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.type{
+    margin-top: 25px;
+    font-size: 1.1rem;
+    color: #10523c;
+}
+.btn{
+    margin-top: 10px;
+}
+.fav:hover{
+    cursor: pointer;
+    color: #b88d36;
+}
+.card:hover .image{
+    filter: grayscale(0);
+
+}
+.card:hover .motto{
+    color: #b88d36;
+}
+.fav{
+    font-size: 2rem;
+    position: absolute;
+    top: 25px;
+    left: 280px;
+}
